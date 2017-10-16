@@ -1,3 +1,59 @@
-#main-nav {
-	background-color: #000;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+
+#header {
+	color: #fff;
+	background-image: url('assets/bg-header.jpg');
+	background-position: 30 20;
+	.blur {
+		background-color: rgba(52,58,64,0.5);
+		#main-nav {
+
+			ul {
+				li {
+
+					padding: 0 10px;
+					a { 
+						color: #fff;
+					}
+
+					a.active {
+						color: #8799A3;
+					}
+				}
+			}
+			.btn {
+				color: #ffff00;
+				border-color: #ffff00;
+				padding: .5em 2em;
+			}
+		}
+
+		.header-hero {
+			letter-spacing: 2;
+			padding: 150px 0;
+			.greeting {
+				font-family: 'Leckerli One', cursive;
+			}
+			.name {
+				font-weight: 800;
+				font-family: 'Montserrat', sans-serif;
+				name {
+					color: #0081FF;
+				}
+			}
+			.profesion {
+				font-weight: 300;
+			}
+			.col-8 {
+				padding: 0;
+			}
+			.desc {
+				color: #636363;	
+			}
+			.btn {
+				padding: 10px 30px;
+			}
+		}
+	}
 }

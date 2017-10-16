@@ -1,2 +1,36 @@
-#main-nav {
-  background-color: #000; }
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Leckerli+One");
+#header {
+  color: #fff;
+  background-image: url("assets/bg-header.jpg");
+  background-position: 30 20; }
+  #header .blur {
+    background-color: rgba(52, 58, 64, 0.5); }
+    #header .blur #main-nav ul li {
+      padding: 0 10px; }
+      #header .blur #main-nav ul li a {
+        color: #fff; }
+      #header .blur #main-nav ul li a.active {
+        color: #8799A3; }
+    #header .blur #main-nav .btn {
+      color: #ffff00;
+      border-color: #ffff00;
+      padding: .5em 2em; }
+    #header .blur .header-hero {
+      letter-spacing: 2;
+      padding: 150px 0; }
+      #header .blur .header-hero .greeting {
+        font-family: 'Leckerli One', cursive; }
+      #header .blur .header-hero .name {
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif; }
+        #header .blur .header-hero .name name {
+          color: #0081FF; }
+      #header .blur .header-hero .profesion {
+        font-weight: 300; }
+      #header .blur .header-hero .col-8 {
+        padding: 0; }
+      #header .blur .header-hero .desc {
+        color: #636363; }
+      #header .blur .header-hero .btn {
+        padding: 10px 30px; }
