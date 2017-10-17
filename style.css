@@ -30,6 +30,7 @@
 }
 
 #header .blur #main-nav .btn {
+	/*box-shadow:0px 2px 20px #FFFF00;*/
 	color: #ffff00;
 	border-color: #ffff00;
 	padding: .5em 2em; 
@@ -70,10 +71,16 @@
 	padding: 10px 30px; 
 }
 
+#header .header .col-7 {
+	padding-left: 0;
+}
+
 #about-me {
-	background-color: #007AF3;
+	background-color: #485bff;
  	color: #fff;
-	padding: 60px;
+	padding: 0 60px;
+	padding-top: 130px;
+	padding-bottom: 20px;
 }
 
 #about-me h2 {
@@ -115,7 +122,25 @@
 }
 
 .icon {
-	display: inline-block;
-	width: 400px;
+	display: inline;
+	max-width: 100%;
 	text-align: center;
+	margin-left: 120px;
+}
+
+
+a .fa {
+	padding: 0 10px;
+	color: #3796F2; 
+}
+
+a .fa:hover,
+.fa.active {
+	color: #fff;
+}
+
+#social-media {
+	padding: 70px 0;
+	background-color: #4556f6;
+	color: #fff;
 }
