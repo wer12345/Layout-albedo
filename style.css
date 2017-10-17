@@ -69,3 +69,53 @@
 #header .blur .header-hero .btn {
 	padding: 10px 30px; 
 }
+
+#about-me {
+	background-color: #007AF3;
+ 	color: #fff;
+	padding: 60px;
+}
+
+#about-me h2 {
+	font-family: 'Leckerli One', cursive; 
+}
+
+.about-desc {
+	font-weight: 700;
+}
+
+.media img {
+	width: 50px;
+}
+
+.media h4 {
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.media {
+	padding-right: 50px;
+}
+
+.about-head-right {
+	padding-left: 0px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.about-head-left {
+	padding-right: 60px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.about-head-left p {
+	font-size: 38px;
+	line-height: 1.2;
+}
+
+.icon {
+	display: inline-block;
+	width: 400px;
+	text-align: center;
+}
