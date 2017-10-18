@@ -30,7 +30,7 @@
 }
 
 #header .blur #main-nav .btn {
-	/*box-shadow:0px 2px 20px #FFFF00;*/
+	box-shadow:0px 7px 40px -12px #FFFF00;
 	color: #ffff00;
 	border-color: #ffff00;
 	padding: .5em 2em; 
@@ -56,6 +56,7 @@
 
 #header .blur .header-hero .profesion {
 	font-weight: 300; 
+	font-size: 30px;
 
 }
 
@@ -76,11 +77,10 @@
 }
 
 #about-me {
-	background-color: #485bff;
+	background-color: #0081FF;
  	color: #fff;
 	padding: 0 60px;
 	padding-top: 130px;
-	padding-bottom: 20px;
 }
 
 #about-me h2 {
@@ -95,9 +95,10 @@
 	width: 50px;
 }
 
-.media h4 {
+.media h5 {
 	font-weight: 900;
 	margin-bottom: 20px;
+	line-height: 1.5;
 }
 
 .media {
@@ -121,6 +122,12 @@
 	line-height: 1.2;
 }
 
+#content {
+	padding: 60px 0;
+	color: #fff;
+	background-color: #007AF3;
+}
+
 .icon {
 	display: inline;
 	max-width: 100%;
@@ -131,7 +138,7 @@
 
 a .fa {
 	padding: 0 10px;
-	color: #3796F2; 
+	color: #6ab0f6; 
 }
 
 a .fa:hover,
@@ -140,7 +147,7 @@ a .fa:hover,
 }
 
 #social-media {
-	padding: 70px 0;
-	background-color: #4556f6;
+	padding: 40px 0;
+	background-color: #0081ff;
 	color: #fff;
 }
