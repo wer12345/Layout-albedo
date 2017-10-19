@@ -6,8 +6,8 @@
   background-image: url("assets/bg-header.jpg");
   min-height: 800px;
   height: 100%;
-  background-size: 1700px;
-  background-position: 30px -100px;
+  background-size: 1900px;
+  background-position: -40px -120px;
 }
 
 
@@ -151,3 +151,38 @@ a .fa:hover,
 	background-color: #0081ff;
 	color: #fff;
 }
+
+#portfolio {
+	padding-top: 60px;
+	padding-bottom: 40px;	
+}
+
+#portfolio h2 {
+	font-family: 'Leckerli One', cursive; 
+	color: #8799A3;
+}
+
+#portfolio p {
+	color: #252525;
+	font-weight: 900;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+}
+
+.btn-port {
+	background-color: #1CBBB3;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 13px;
+	padding: 15px 30px;
+	float: right;
+	box-shadow: 0px 7px 40px -12px #1CBBB3;
+}
+
+#port-content img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
