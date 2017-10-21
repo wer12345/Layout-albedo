@@ -181,7 +181,7 @@ a .fa:hover,
 }
 
 #port-content {
- padding-top: 120px;
+  padding-top: 120px;
 }
 
 
@@ -189,19 +189,25 @@ a .fa:hover,
 .image {
   max-height: 310px;
   object-fit: cover;
-  overflow: hidden;
 }
 
 .image2 {
   max-height: 620px;
+  width: 100%;
   object-fit: cover;
-  overflow: hidden;
 }
 
 .fit {
-  transform: scale(1.4, 1);
+  transform: scale(1.4);
 }
 
+.fit2 {
+transform: scale(1.6);
+}
+
+.fit3 {
+transform: scale(2.2);
+}
 
 .row {
   margin: 0;
@@ -213,9 +219,6 @@ a .fa:hover,
   padding: 0 0;
 }
 
-.up {
-  margin-top: -50px;
-}
 
 .overlay {
   position: absolute;
@@ -227,7 +230,7 @@ a .fa:hover,
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #252525;
+  background-color: rgba(37,37,37,0.7);
 }
 
 
@@ -246,6 +249,12 @@ a .fa:hover,
   font-size: 15px;
   font-weight: 900;
 }
+
+.content {
+  overflow: hidden;
+}
+
+
 
 .content:hover .overlay {
   opacity: 1;
@@ -275,6 +284,62 @@ a .fa:hover,
   font-weight: 900;
 }
 
-.carousel-caption {
-  position: static;
+#clients .carousel-item .quote {
+  height: 250px;
+  margin: 30px 190px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#clients .carousel-item .quote p{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.c-img {
+  margin-top: 140px;
+  height: 100px;
+}
+
+.c-img2 {
+  margin-top: 100px;
+  height: 180px;
+}
+
+.media img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+
+.media-body h5 {
+  font-size: 19px;
+  color: #ffff00;
+  margin-bottom: 0;
+}
+
+.media-body div{
+  font-size: 13px; 
+  color: #8799A3;
+}
+
+#blog {
+  padding: 100px;
+}
+
+.bg-blog1 {
+  min-height: 500px;
+
+  background-image: url('assets/blog-1.png');
+  background-size: cover;
+}
+
+.bg-blog2 {
+  min-height: 300px;
+  background-image: url('assets/blog-2.png');
+}
+
+.bg-blog3 {
+  min-height: 300px;
+  background-image: url('assets/blog-3.png');
 }
